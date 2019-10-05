@@ -1,0 +1,12 @@
+article = '''When I wrote the following page, or rather the bulk of them, I live alone, in the wood, a mile from any neighbor, in a house which I had built myself, on the shore of Walden pond, in Concord, Massachusetts, and earned my living by the labor of my hands only. I lived there two years and two months. At present I am a sojourner in civilized life again.'''
+#瓦尔登湖选段
+words = []
+n = []
+words=article.split()
+print(words)
+l=len(words)
+for i in range(1):
+    n. append(words.count(words[i]))
+print('各单词的词频为 ')
+for j in n:
+    print(j,end=' ')
