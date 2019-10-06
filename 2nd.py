@@ -31,3 +31,5 @@ def main():
     html = getHYMLText(url)
     fillDimondList(dinfo,html)
     printDimondlist(dinfo,20)#此处且列20个
+
+main()
